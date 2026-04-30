@@ -3,11 +3,20 @@ public class digits {
      public static void main(String[] args) {
          Scanner sc=new Scanner(System.in);
          if(sc.hasNextInt()){
-         int N=sc.nextInt();
-         for(int i=0;i<=N;i++){
-             int num=sc.nextInt();
+         int T =sc.nextInt();
+         while(T-->0){
+             String N=sc.next();
 
 
+         for(int i=N.length()-1;i>=0;i--){
+             System.out.println(N.charAt(i));
+             if(i>0){
+                 System.out.println(" ");
+             }
+
+
+         }
+             System.out.println();
          }
          }
 
